@@ -1,0 +1,110 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:#5c5a5a; text-decoration: none;}
+a:hover{
+    color: black;
+    background-color: #cdcdcd;
+}
+table{
+    border-collapse: collapse;    
+}
+
+th{
+    text-align: center;
+    background-color: #C0C0C0;
+}
+
+header{
+    margin: 5px;    
+    display: flex;
+    height: 70px;
+    
+}
+
+.pesquisa{
+    height: 25px;
+    margin-left: 360px;
+    margin-top: 25px;
+    margin-right: 0;  
+}
+
+.links{
+    margin-left: 350px;
+    margin-top: 15px;
+}
+
+button{
+    height: 25px;
+    margin-top: 25px;    
+}
+
+.bar {
+    background-color: #f9f9fb;
+    padding:10px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+.sidebar {
+    
+    padding-left: 30px;
+    float: left;
+    width: 180px;    
+    position: fixed;
+}
+
+main{
+    text-align: justify;
+    padding-top: 15px;    
+    padding-left: 90px;
+    margin-left: 200px;
+    width: 800px;
+    border-left: solid 1px #cdcdcd;
+}
+
+.textLogo{
+    margin-left: 245px;
+    padding-bottom: 20px;
+}
+
+nav {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+h3{
+    border-bottom: 1px solid rgb(192, 190, 190);
+    color: #5c5a5a;
+}
+
+aside {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+    margin-left: 900px;
+    width: 200px;
+    
+    
+}
+
+footer {
+    height: 10px;
+    border-top: solid 1px #cdcdcd;
+    text-align: center;
+    padding-bottom: 15px;    
+}
+
+figure {
+    text-align: center;
+}
+
